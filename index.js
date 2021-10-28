@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
-    result = req.body.result;
+    result = req.body;
 
     return res.send(result);
 });
